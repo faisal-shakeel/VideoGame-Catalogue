@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.admin import SimpleListFilter
-# from rest_framework_simplejwt import token_blacklist
 
 from api.models import Role,User,Permission
 
